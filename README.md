@@ -1,7 +1,6 @@
 # SwiftTranslator Playwright Automation Tests
 
-This repository contains **automated functional and UI test cases** for  
-**SwiftTranslator (https://www.swifttranslator.com/)** using **Playwright**.
+This repository contains **automated functional and UI test cases** for  **SwiftTranslator (https://www.swifttranslator.com/)** using **Playwright**.
 
 The tests validate the **accuracy, robustness, and UI behavior** of the Singlish → Sinhala translation feature.
 
@@ -44,7 +43,7 @@ playwright-tests/
 
 # Installation
 
-git clone https://github.com/Lasiru71/Playwright
+git clone https://github.com/Lasiru71/Playwright  
 Navigate to the project directory
 
 cd Playwright  
@@ -53,39 +52,33 @@ Install project dependencies
 npm install  
 Install Playwright browsers
 
-npx playwright install
+npx playwright install  
 Running the Tests
-Run all tests (headless mode)
-npx playwright test
-Run tests in headed mode (with browser UI)
-npx playwright test --headed
-Generate HTML test report
-npx playwright test --reporter=html
-View the HTML report
-npx playwright show-report
-Test Coverage
-Positive functional test cases
 
-Singlish to Sinhala translation validation
+Run all tests (headless mode)  
+npx playwright test  
 
-UI-based output verification
+Run tests in headed mode (with browser UI)  
+npx playwright test --headed  
 
-Known Limitation
-The SwiftTranslator application does not generate full Sinhala sentence
-translations. Instead, it provides word-level or phrase-based suggestions.
-This limitation is documented as part of the test analysis.
+Generate HTML test report  
+npx playwright test --reporter=html  
 
-Intended Use
-This project is intended for:
+View the HTML report  
+npx playwright show-report  
 
-Academic software testing assignments ITPM Module
 
-Learning Playwright automation
+Intended Use  
 
-Author
+This project is intended for:  
 
-Kalindu Methmuditha
+Academic software testing assignments ITPM Module  
 
-BSc (Hons) in Information Technology
+Learning Playwright automation  
 
-Year 3 – Semester 1
+Author  
+
+Kalindu Methmuditha  
+BSc (Hons) in Information Technology  
+Year 3 – Semester 1  
+
