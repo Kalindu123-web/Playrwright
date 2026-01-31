@@ -78,11 +78,11 @@ This limitation is documented as part of the test analysis.
 Intended Use
 This project is intended for:
 
-Academic software testing assignmentsITPM Module
+Academic software testing assignments ITPM Module
 
 Learning Playwright automation
 
 Author
-Kalindu Methmuditha
-BSc (Hons) in Information Technology
-Year 3 – Semester 1
+--Kalindu Methmuditha
+--BSc (Hons) in Information Technology
+--Year 3 – Semester 1
