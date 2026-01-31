@@ -42,41 +42,32 @@ playwright-tests/
 ├── playwright.config.js
 ├── package.json
 
-#Instalation
+# Installation
 
-01.Clone the Repository
+## 01. Clone the Repository
+
 git clone https://github.com/Kalindu123/Playwright
-
-02.Navigate to the Project Directory
+02. Navigate to the Project Directory
 cd Playwright
-
-03.Install Project Dependencies
+03. Install Project Dependencies
 npm install
-
-04.Install Playwright Browsers
+04. Install Playwright Browsers
 npx playwright install
-
-05.Running the Tests
-Run all tests 
+05. Running the Tests
+Run all tests (headless mode)
 npx playwright test
-
-06.Run tests in headed mode (with browser UI)
+Run tests in headed mode (with browser UI)
 npx playwright test --headed
-
-07.Generate HTML Test Report
+Generate HTML Test Report
 npx playwright test --reporter=html
-
-08.View the HTML Report
+View the HTML Report
 npx playwright show-report
-
-
-# Intended Use
-
+Intended Use
 This project is intended for:
 
 Academic Software Testing assignments
 
-ITPM Module
+ITPM module coursework
 
 Learning and practicing Playwright automation testing
 
