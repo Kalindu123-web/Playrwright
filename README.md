@@ -44,16 +44,15 @@ playwright-tests/
 # Installation
 
 git clone https://github.com/Lasiru71/Playwright  
+
 Navigate to the project directory
-
 cd Playwright  
+
 Install project dependencies
-
 npm install  
-Install Playwright browsers
 
+Install Playwright browsers
 npx playwright install  
-Running the Tests
 
 Run all tests (headless mode)  
 npx playwright test  
@@ -67,16 +66,14 @@ npx playwright test --reporter=html
 View the HTML report  
 npx playwright show-report  
 
-
-Intended Use  
-
+ 
 This project is intended for:  
 
 Academic software testing assignments ITPM Module  
 
 Learning Playwright automation  
 
-Author  
+👨‍🎓Author  
 
 Kalindu Methmuditha  
 BSc (Hons) in Information Technology  
