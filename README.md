@@ -44,36 +44,45 @@ playwright-tests/
 
 # Installation
 
-## 01. Clone the Repository
+git clone https://github.com/Lasiru71/Playwright
+Navigate to the project directory
 
-git clone https://github.com/Kalindu123/Playwright
-02. Navigate to the Project Directory
 cd Playwright
-03. Install Project Dependencies
+Install project dependencies
+
 npm install
-04. Install Playwright Browsers
+Install Playwright browsers
+
 npx playwright install
-05. Running the Tests
+Running the Tests
 Run all tests (headless mode)
 npx playwright test
 Run tests in headed mode (with browser UI)
 npx playwright test --headed
-Generate HTML Test Report
+Generate HTML test report
 npx playwright test --reporter=html
-View the HTML Report
+View the HTML report
 npx playwright show-report
+Test Coverage
+Positive functional test cases
+
+Singlish to Sinhala translation validation
+
+UI-based output verification
+
+Known Limitation
+The SwiftTranslator application does not generate full Sinhala sentence
+translations. Instead, it provides word-level or phrase-based suggestions.
+This limitation is documented as part of the test analysis.
+
 Intended Use
 This project is intended for:
 
-Academic Software Testing assignments
+Academic software testing assignmentsITPM Module
 
-ITPM module coursework
+Learning Playwright automation
 
-Learning and practicing Playwright automation testing
-
-👨‍🎓 Author
+Author
 Kalindu Methmuditha
 BSc (Hons) in Information Technology
 Year 3 – Semester 1
-
-
