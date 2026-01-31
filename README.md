@@ -47,10 +47,10 @@ playwright-tests/
 git clone https://github.com/Lasiru71/Playwright
 Navigate to the project directory
 
-cd Playwright
+cd Playwright  
 Install project dependencies
 
-npm install
+npm install  
 Install Playwright browsers
 
 npx playwright install
@@ -83,6 +83,9 @@ Academic software testing assignments ITPM Module
 Learning Playwright automation
 
 Author
---Kalindu Methmuditha
---BSc (Hons) in Information Technology
---Year 3 – Semester 1
+
+Kalindu Methmuditha
+
+BSc (Hons) in Information Technology
+
+Year 3 – Semester 1
