@@ -27,7 +27,7 @@ The tests validate the **accuracy, robustness, and UI behavior** of the Singlish
 
 ## Project Structure
 
-playwright-tests/
+playwright/
 │
 ├── tests/
 │   ├── functional/
@@ -43,15 +43,15 @@ playwright-tests/
 
 # Installation
 
-git clone https://github.com/Lasiru71/Playwright  
+git clone https://github.com/Kalindu123-web/Playrwright  
 
-Navigate to the project directory
+Navigate to the project directory  
 cd Playwright  
 
-Install project dependencies
+Install project dependencies  
 npm install  
 
-Install Playwright browsers
+Install Playwright browsers  
 npx playwright install  
 
 Run all tests (headless mode)  
