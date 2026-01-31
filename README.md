@@ -25,25 +25,27 @@ The tests validate the **accuracy, robustness, and UI behavior** of the Singlish
 
 ---
 
-## Project Structure
+# 📁 Project Structure
+
+This project follows a clear and organized Playwright test structure.
 
 playwright/
-│
 ├── tests/
 │   ├── functional/
-│   │   ├── positive-functional.spec.js   
-│   │   └── negative-functional.spec.js   
+│   │   ├── positive-functional.spec.js   # Positive functional test cases
+│   │   └── negative-functional.spec.js   # Negative functional test cases
 │   │
 │   ├── ui/
-│   │   ├── positive-ui.spec.js           
-│   │   └── negative-ui.spec.js          
+│   │   ├── positive-ui.spec.js           # Positive UI test cases
+│   │   └── negative-ui.spec.js           # Negative UI test cases
 │
-├── playwright.config.js
-├── package.json
+├── playwright.config.js                  # Playwright configuration
+├── package.json                          # Project dependencies and scripts
+
 
 # Installation
 
-git clone https://github.com/Kalindu123-web/Playrwright  
+git clone = https://github.com/Kalindu123-web/Playrwright  
 
 Navigate to the project directory  
 cd Playwright  
